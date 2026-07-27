@@ -19,5 +19,5 @@
    git clone https://github.com
    ```
 2. Откройте файл `index.html` в любом современном браузере (или запустите через расширение Live Server в VS Code)
-3. Посмотреть приложение в действии можно [здесь](https://natasha-moskvichka.github.io/to-do-list/).
+3. Посмотреть приложение в действии можно [здесь](https://natasha-moskvichka.github.io/todo-pwa/).
 
