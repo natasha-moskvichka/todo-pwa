@@ -202,8 +202,9 @@ function onHandlerSave() {
     const value = inputTask.value.trim();
     if (value === '' || currentEditIndex === null) return;
 
-    tasks[currentEditIndex] = value;
-    localStorage.setItem('tasks', JSON.stringify(tasks));
+    tasks[currentEditIndex].title = value;
+    saveTask();
+    //localStorage.setItem('tasks', JSON.stringify(tasks));
 
     const taskElements = document.querySelectorAll('.task');
     const taskDom = taskElements[currentEditIndex];
